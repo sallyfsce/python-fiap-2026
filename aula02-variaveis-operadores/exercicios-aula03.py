@@ -43,10 +43,8 @@ se os valores lidos são múltiplos entre si.
 
 num1 = int(input('Insira um número inteiro: '))
 num2 = int(input('Insira outro número inteiro: '))
-divisao1 = num1 / num2
-divisao2 = num2 / num1
 
-if divisao1 % == 0:
+if num1 % num2 == 0:
     print('São múltiplos')
 else:
     print('Não são múltiplos')
